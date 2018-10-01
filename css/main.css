@@ -1,0 +1,216 @@
+.logo {
+   width: 64px;
+   height: 64px;
+   margin-top: -30px;
+   margin-bottom: -20px;
+}
+
+.section__title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    background-image: url(../img/bg.jpg);
+    height: 100vh;
+    background-size: cover;    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main__title {
+    font-family: 'Times New Roman';
+    font-size: 42px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1.8px;
+    line-height: 30px;
+    text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+    margin-bottom: 50px;
+}
+
+.main__title-big {
+    font-family: Lato;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+/* ------------------------------------------------------------- Futures -------------------------------------------------------------*/
+
+
+.futures {
+    padding: 100px;
+}
+
+.futures__list {
+    display: flex;
+    list-style: none;
+}
+
+.futures__item {
+    width: 360px;
+    padding: 0 10px;
+    text-align: center;
+    margin-left: -42px;
+}
+
+.futures__description {
+    margin: 0;
+    font-family: Lato;
+    color: #8b8b8b;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+}
+
+.futures__item::before {
+    content: "";
+    width: 127px;
+    height: 127px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: yellow;
+    display: inline-block;
+    background-image: url(../img/page.png);
+    margin-bottom: 20px;
+}
+
+.futures__item--pen::before {
+    background-image: url(../img/pen.png);
+}
+
+.futures__item--page::before {
+    background-image: url(../img/page.png);
+}
+
+.futures__item--label::before {
+    background-image: url(../img/label.png);
+}
+
+.futures__a {
+    text-decoration: none;
+    color: black;
+}
+.futures__a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/*------------------------------------------ section -----------------------------------------------*/
+
+.slider {
+    height: 480px;
+    width: 100%;
+    background-color: #483647;
+}
+
+.review {
+    background-color: #483647;
+    background-image: url(img/reviev-bg@2x.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+    color: rgba(255, 255, 255, 50%);
+    text-align: center;
+}
+
+.review__avatar {
+    max-width: 150px;
+    max-height: 150px;
+    margin-bottom: 30px;
+}
+
+.review__text {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 0 0 30px;
+}
+
+.review_author {
+    font-size: 18px;
+    line-height: 36px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.review-controll__item {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .2);
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.review-controll__item-active {
+    background-color: #fff;
+}
+
+.slid {
+    padding-top: 5%;
+}
+.slide-indic {
+    margin: -70px;
+}
+
+/* -------------------------------- Портфолио ------------------------------------ */
+
+.holder{
+    position:relative;   
+    width: 270px;
+    height: 265px;
+    padding-right: 20px;
+    margin: 10 px auto;
+    background: #000;
+}
+.holder__1 {
+    background: url(../img/portfolio/1.jpg) no-repeat center
+}
+.holder__2 {
+    background: url(../img/portfolio/2.jpg) no-repeat center
+}
+.holder__3 {
+    background: url(../img/portfolio/3.jpg) no-repeat center
+}
+.holder__4 {
+    background: url(../img/portfolio/4.jpg) no-repeat center
+}
+.block{
+    position:absolute;
+    left:5%;
+    bottom:5%;
+    right:5%;
+    top:5%;
+    background:rgba(0,155,151, 0.9);
+    padding:10px;
+    display:none;
+    text-decoration: none !important;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+}
+.holder:hover .block{
+    display:block;
+}

@@ -1,0 +1,70 @@
+/* --------------------------Адаптацыя Сайта------------------------ */
+@media (max-width: 768px) {
+    .menu__nav {
+        text-align: center;
+        margin-left: 100px;
+    }
+    .logo {
+        width: 128px;
+        height: 128px;
+        margin-left: 20px;
+     }
+    .nav__menu {
+        margin-top: 20px;
+    }
+    .main {
+        height: 60vh;
+        width: 67vh;
+    }
+    .main__title {
+        font-size: 28px;
+        margin-bottom: 4px;
+    }
+    .main__title-big {
+        font-size: 32px;
+        text-align: center;
+    }
+    .futures {
+        padding: 50px 0 20px 0;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .block_work {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .work {
+        background-color: #fff;
+    }
+    .work__item {
+        text-align: center;
+        margin-left: 15px;
+    }
+    .review__avatar {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 50px;
+    }
+    .review__text {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .review_author {
+        font-size: 18px;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        visibility: hidden;
+    }
+    .slider {
+        margin-left: 45px;
+    }
+    .title__work {
+        font-size: 22px;
+        margin-left: 80px
+    }
+    
+}
+
+@media (max-width: 992px) {
+
+}
